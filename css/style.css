@@ -158,8 +158,9 @@ section{
 }
 .cloud{
     width:100%;
-    margin-bottom:-300px;
+    margin-bottom:-200px;
     height:330px;
+    z-index:7;
 }
 .berry-4{
     position: absolute;
@@ -169,6 +170,27 @@ section{
 .information{
     background: #081130;
     width:100%;
+    height:1200px;
+    display: grid;
+    grid-template-columns:1fr 1fr;
+}
+.information-wrapper{
+}
+.information button{
+    width:100px;
+    height:100px;
+}
+.cloud-3{
+    width:100%;
+    height:500px;
+    margin-top:-290px;
+    z-index:5;
+}
+.information-inner{
+    width:100px;
+    height:200px;
+}
+.phone-inner{
 }
 .leaf-2{
     position: absolute;
